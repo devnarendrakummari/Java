@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class weightConverter
+{
+    public static void main(String[] args)
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.print("weight in kgs = ");
+        double weightkgs = scan.nextDouble();
+        weightconverter(weightkgs);
+
+
+    }
+    public static double weightconverter(double weightkgs)
+    {
+        double x=weightkgs*1000;
+        double y=weightkgs*1000000;
+        System.out.print("weight in grams ="+x+" grams ");
+        System.out.print("weight in milligrams ="+y+" milligrams");
+        return 0;
+    }
+}
+

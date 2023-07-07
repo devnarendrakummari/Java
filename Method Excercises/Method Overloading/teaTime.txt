@@ -1,0 +1,32 @@
+class teaTime
+{
+    static void makeTea()
+    {
+        System.out.println("Cost of PlainTea=10");
+    }
+    static void makeTea(int quantity)
+    {
+        System.out.println("Bill for PlainTea="+(quantity*10));
+    }
+    static void makeTea(String flavour)
+    {
+        System.out.println("Bill for "+ flavour +" tea = 15");
+    }
+    static void makeTea(String flavour, int quantity)
+    {
+        System.out.println("Bill for "+ flavour +" tea = "+(quantity*15));
+    }
+    
+
+    public static void main(String[] args)
+    {
+        makeTea();
+        makeTea(2);
+
+        makeTea("lemon");
+        makeTea("lemon",15);
+
+    }
+
+
+}

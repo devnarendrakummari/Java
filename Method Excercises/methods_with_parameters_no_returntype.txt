@@ -1,0 +1,13 @@
+class FindSum
+{
+    public static void main (String[] args)
+    {
+        FindSum(1,2);
+    }
+    static void FindSum(int a, int b)
+    {
+        int sum=0;
+        sum=a+b;
+        System.out.println(sum);
+    }
+}

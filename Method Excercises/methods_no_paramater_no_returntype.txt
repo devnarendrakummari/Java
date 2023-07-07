@@ -1,0 +1,11 @@
+class Greet
+{
+    public static void main (String[] args)
+    {
+        GreetClass();
+    }
+    static void GreetClass()
+    {
+        System.out.println("Good Morning");
+    }
+}

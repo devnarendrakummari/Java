@@ -1,0 +1,43 @@
+class studentGrades
+{
+    public static void main (String[]args)
+    {
+        studentgrades("AMITH",65);
+    }
+    static void studentgrades(String name,int a)
+    {
+        System.out.print(name+" ");
+        // 100    - S
+        // 91-99  - A
+        // 81-90  - B
+        // 71-80  - C
+        // 61-70  - D
+        // 50-60  - E
+        // less than 50 - Fail
+        if(a>=100){
+            System.out.print("You got S grade");
+        }
+        else if(a>=91 && a<99){
+            System.out.print("You got A grade");
+        }
+        else if(a>=81 && a<=90){
+            System.out.print("You got B grade");
+        }
+        else if(a>=71 && a<=80){
+            System.out.print("You got C grade");
+        }
+        else if(a>=61 && a<=70){
+            System.out.print("You got D grade");
+        }
+        else if(a>=51 && a<=60){
+            System.out.print("You got E grade");
+        }
+        else{
+            System.out.print("Your FAILED");
+        }
+
+    }
+}
+
+
+

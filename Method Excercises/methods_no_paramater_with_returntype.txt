@@ -1,0 +1,16 @@
+class Greet
+{
+    public static void main (String[] args)
+    {
+        int res=GreetClass();
+        System.out.println(res);
+    }
+    static int GreetClass()
+    {
+        int a=1;
+        int b=2;
+        int sum=0;
+        sum = a+b;
+        return sum;
+    }
+}

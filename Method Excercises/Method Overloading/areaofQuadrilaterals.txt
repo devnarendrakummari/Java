@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class areaofQuadrilaterals
+{
+    public static void main (String[] args)
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Length =");
+        int length=scan.nextInt();
+        System.out.print("Breadth =");
+        int breadth=scan.nextInt();
+        System.out.print("Height =");
+        double height=scan.nextDouble();
+        String s1=scan.nextLine();
+        area(length);
+        String s2=scan.nextLine();
+        area(length,breadth);
+        String s3=scan.nextLine();
+        area(height,breadth);
+
+    }
+    public static void area(int length)
+    {
+        System.out.print("Area of square = " + length*length);
+    }
+    public static void area(int length,int breadth)
+    {
+        System.out.print("Area of rectangle = " + length*breadth);
+    }
+    public static void area(double height, int breadth)
+    {
+        System.out.print("Area of triangle = " + 0.5*breadth*height);
+    }
+}
